@@ -1,0 +1,65 @@
+.product-card img{
+    width: 40%;
+    height: 40%;
+    border-radius: 20px 20px 0 0;
+    margin: auto;
+    object-fit: cover;
+}
+
+.product-card{
+    height: 20rem;
+    border-radius: 20px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    text-transform: uppercase;
+    /* line-height: 1.4rem; */
+    margin: 0.6rem 0;
+    /* font-weight: bold; */
+    font-size: 0.9rem;
+}
+
+.price{
+    line-height: 1.4rem;
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.price::before{
+    content: "৳";
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    top: -0.3rem;
+    padding-right: 0.3rem;
+}
+
+.btn{
+    background-color: #109fB2;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+    border-top: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn button{
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #077381;
+}
+
+.bottom{
+    margin-top: auto;
+}
